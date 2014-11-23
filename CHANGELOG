@@ -1,6 +1,15 @@
 CHANGELOG
 =========
 
+0.13.0
+------
+
+2014-11-23
+
+New feature:
+
+  * Added support for Vagrant Azure provider
+
 0.12.0
 ------
 
