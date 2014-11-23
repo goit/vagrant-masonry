@@ -1,14 +1,14 @@
-Vagrant Config Builder
+Vagrant Masonry - Config Builder
 ======================
 
-Configure and manage your Vagrant environments with data.
+Configure and manage your Vagrant environments using structured data.
 
 Synopsis
 --------
 
 This plugin provides an interface to the Vagrant configuration constructs in a
 logic free manner. You can format your input data to fit your needs and use
-`vagrant-config_builder` to transform that into the needed Vagrant config.
+`vagrant-masonry` to transform that into the needed Vagrant config.
 
 Example
 -------
@@ -31,7 +31,7 @@ for clarity.
 
 For pure yaml configurations, use yaml loader:
 ```ruby
-require 'config_builder'
+require 'masonry'
 Vagrant.configure('2', &ConfigBuilder.load(
   :yaml,
   :yamldir,
@@ -41,7 +41,7 @@ Vagrant.configure('2', &ConfigBuilder.load(
 
 For yaml erb configurations, use yaml_erb loader:
 ```ruby
-require 'config_builder'
+require 'masonry'
 Vagrant.configure('2', &ConfigBuilder.load(
   :yaml_erb,
   :yamldir,
@@ -107,14 +107,21 @@ Installation
 
 ### Installation into the Vagrant internal gems:
 
-  * `vagrant plugin install vagrant-config_builder`
+  * `vagrant plugin install vagrant-masonry`
 
 ### Installation from source
 
 Build the gem:
 
-  * `gem build vagrant-config_builder.gemspec`
+  * `gem build vagrant-masonry.gemspec`
 
 Install the gem:
 
-  * `gem install vagrant-config_builder-<version>.gem`
+  * `gem install vagrant-masonry-<version>.gem`
+
+License
+-------
+
+**Vagrant Masonry** plugin is based on [vagrant-config_builder](https://github.com/adrienthebo/vagrant-config_builder) plugin.
+
+**Vagrant Masonry** is licensed under [Apache 2.0](LICENSE) license.

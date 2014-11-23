@@ -2,14 +2,14 @@ $LOAD_PATH << File.expand_path(File.join('..', 'lib'), __FILE__)
 require 'config_builder/version'
 
 Gem::Specification.new do |gem|
-  gem.name    = 'vagrant-config_builder'
+  gem.name    = 'vagrant-masonry'
   gem.version = ConfigBuilder::VERSION
 
   gem.summary     = 'Generate Vagrant configurations from arbitrary data'
 
-  gem.authors  = 'Adrien Thebo'
-  gem.email    = 'adrien@somethingsinistral.net'
-  gem.homepage = 'https://github.com/adrienthebo/vagrant-config_builder'
+  gem.authors  = 'Adrien Thebo, Jozef Izso'
+  gem.email    = 'adrien@somethingsinistral.net, jozef.izso@gmail.com'
+  gem.homepage = 'https://github.com/goitsk/vagrant-masonry'
 
   gem.has_rdoc = true
   gem.license  = 'Apache 2.0'
