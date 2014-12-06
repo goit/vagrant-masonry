@@ -3,6 +3,8 @@ Vagrant Masonry - Config Builder
 
 Configure and manage your Vagrant environments using structured data.
 
+> Masonry is the craft of shaping rough pieces of rock into accurate geometrical shapes, at times simple, but some of considerable complexity, and then arranging the resulting stones to form structures.
+
 Synopsis
 --------
 

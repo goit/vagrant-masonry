@@ -6,9 +6,10 @@ Gem::Specification.new do |gem|
   gem.version = ConfigBuilder::VERSION
 
   gem.summary     = 'Generate Vagrant configurations from arbitrary data'
+  gem.description = 'Use YAML configuration files to declaratively specify Vagrant configuration.'
 
-  gem.authors  = 'Adrien Thebo, Jozef Izso'
-  gem.email    = 'adrien@somethingsinistral.net, jozef.izso@gmail.com'
+  gem.authors  = ['Jozef Izso', 'Adrien Thebo']
+  gem.email    = ['jozef.izso@gmail.com', 'adrien@somethingsinistral.net']
   gem.homepage = 'https://github.com/goitsk/vagrant-masonry'
 
   gem.has_rdoc = true
